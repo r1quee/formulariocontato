@@ -1,0 +1,24 @@
+{
+  "name": "formulariocontato",
+  "version": "1.0.0",
+  "description": "exercicio da lista 4",
+  "keywords": [
+    "Node",
+    "JS",
+    "express-validator"
+  ],
+  "license": "ISC",
+  "author": "Henrique",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "nodemailer": "^7.0.6"
+  }
+}
