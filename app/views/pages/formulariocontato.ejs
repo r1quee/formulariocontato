@@ -8,7 +8,7 @@
 </head>
 <body>
     <main>
-        <form>
+        <form action="/formulariocontato" method="POST">
         <h1>Contato</h1>
         <section class="input-group">
             <label for="nome">Nome Completo:</label><br>
@@ -22,7 +22,7 @@
         </section>
         <section class="input-group">
             <label for="tel">Telefone:</label><br>
-            <input type="tel" id="tel" name="tel" placeholder="Digite seu número de telefone" aria-describedby="tel-error" required>
+            <input type="tel" id="tel" name="telefone" placeholder="Digite seu número de telefone" aria-describedby="tel-error" required>
             <span class="error-message" id="tel-error" role="alert" aria-live="polite"></span>
         </section>
         <section class="input-group">
@@ -39,5 +39,6 @@
         <button type="submit">Enviar</button>
     </form>
     </main>
+    <script src="/js/validacao.js"></script>
 </body>
 </html>

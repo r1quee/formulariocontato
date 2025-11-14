@@ -1,6 +1,6 @@
-const express = require ('express')
-const app = express()
-const dotenv = require("dotenv").config()
+const express = require ('express');
+const app = express();
+const dotenv = require("dotenv").config();
 
 app.use(express.static('./app/public'));
 
